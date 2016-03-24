@@ -35,6 +35,15 @@
   	<url-pattern>/*</url-pattern>
   </filter-mapping>
   
+    <filter>
+  	<filter-name>loginfilter</filter-name>
+  	<filter-class>com.module.filters.LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>loginfilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
   <servlet>
   	<servlet-name>FilterServlet</servlet-name>
   	<description>filterServlet</description>

@@ -14,7 +14,7 @@ public class ConfigUtil {
 
     private Properties config = new Properties();
 
-    private ConfigUtil(String configFile) {
+    public ConfigUtil(String configFile) {
         try {
             InputStream is = getConfigFileStream(configFile);
             if (is != null) {
